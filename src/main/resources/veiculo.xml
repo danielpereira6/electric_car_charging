@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<carro>
+    <matricula>11-72-WI</matricula>
+    <marca>Rover</marca>
+    <modelo>600</modelo>
+    <cor>azul</cor>
+    <ano>1990</ano>
+</carro>
