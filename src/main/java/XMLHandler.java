@@ -12,13 +12,11 @@ import javax.xml.transform.stream.StreamSource;
 import javax.xml.validation.Schema;
 import javax.xml.validation.SchemaFactory;
 import javax.xml.validation.Validator;
-import java.io.File;
-import java.io.FileNotFoundException;
-import java.io.FileOutputStream;
-import java.io.OutputStream;
+import java.io.*;
 
 public class XMLHandler {
-    public static String FILEPATH = "src/main/resources/";
+    public static String FILE_PATH = "src/main/resources/";
+    public static String CLIENT_PATH = "src/main/resources/Cliente/";
     private static JAXBContext jaxbContext;
 
     public XMLHandler() {}
@@ -41,7 +39,7 @@ public class XMLHandler {
 
     // ------------------ //
     /** READ XML FILE **/
-    public static Object readXML(Class xmlClass, String filename) throws JAXBException {
+    public static <T extends Serializable> T readXML(Class<T> xmlClass, String filename) throws JAXBException { // <T> is generic class
         // Create an JAXBContext object
         jaxbContext = JAXBContext.newInstance(xmlClass);
 
@@ -49,12 +47,12 @@ public class XMLHandler {
         Unmarshaller jaxbUnmarshaller = jaxbContext.createUnmarshaller();
 
         // Ler o arquivo XML
-        Veiculo readCarXML = (Veiculo) jaxbUnmarshaller.unmarshal(new File(filename)); // xml file name
+        Object readXML = jaxbUnmarshaller.unmarshal(new File(filename)); // xml file name
 
         // Exibir os dados do arquivo XML
-        System.out.println("Dados Carro: " + readCarXML.toString());
+        //System.out.println("Dados: " + readXML.toString());
 
-        return readCarXML;
+        return (T) readXML;
     }
 
     // ------------------ //

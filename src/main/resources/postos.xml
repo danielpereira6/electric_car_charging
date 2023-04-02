@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<postos>
+    <posto id="1">
+        <nome>MTS-00009</nome>
+        <descricao>Posto da ESTGA</descricao>
+        <tipo_posto>20 kW</tipo_posto>
+        <localizacao>
+            <lat>40.5744818</lat>
+            <long>-8.4456185</long>
+        </localizacao>
+    </posto>
+    <posto id="2">
+        <nome>VNG-00009</nome>
+        <descricao>Estação de Serviço Repsol</descricao>
+        <tipo_posto>50 kW</tipo_posto>
+        <localizacao>
+            <lat>39.0500708</lat>
+            <long>-8.9168791</long>
+        </localizacao>
+    </posto>
+</postos>

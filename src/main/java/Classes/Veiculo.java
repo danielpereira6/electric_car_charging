@@ -12,8 +12,8 @@ import java.util.HashMap;
 public class Veiculo implements Serializable {
     public static HashMap<Integer, Veiculo> carros = new HashMap<>();
 
-//    @XmlAttribute(name="id")
-//    private int id;
+    @XmlAttribute(name="id")
+    private int id;
     @XmlElement(name="matricula")
     private String matricula;
     @XmlElement(name="marca")
@@ -27,7 +27,7 @@ public class Veiculo implements Serializable {
 
     public Veiculo() {
         // Add cars
-        carros.put(1, new Veiculo("11-72-WI", "Rover", "600", "azul", 1990));
+        carros.put(1, new Veiculo("66-66-66", "Opel", "Corsa", "preto", 1998));
     }
 
     public Veiculo(String matricula, String marca, String modelo, String cor, int ano) {
@@ -47,5 +47,33 @@ public class Veiculo implements Serializable {
                 ", cor='" + cor + '\'' +
                 ", ano=" + ano +
                 '}';
+    }
+
+    public static HashMap<Integer, Veiculo> getCarros() {
+        return carros;
+    }
+
+    public int getId() {
+        return id;
+    }
+
+    public String getMatricula() {
+        return matricula;
+    }
+
+    public String getMarca() {
+        return marca;
+    }
+
+    public String getModelo() {
+        return modelo;
+    }
+
+    public String getCor() {
+        return cor;
+    }
+
+    public int getAno() {
+        return ano;
     }
 }

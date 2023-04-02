@@ -5,21 +5,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e21f9998-06ad-495f-b2ec-3265e07a32d7" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Classes/Carregamento.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Classes/Cliente.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Classes/Fatura.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Classes/Posto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Classes/Veiculo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Classes/Veiculos.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/XMLHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Classes/Descontos.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Classes/Impostos.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Classes/Localizacao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Utils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Cliente/fatura_mes.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Cliente/mar/carregamento_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Cliente/mar/carregamento_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/postos.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Classes/Carregamento.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Classes/Carregamento.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Classes/Fatura.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Classes/Fatura.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Classes/Posto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Classes/Posto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Classes/Veiculo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Classes/Veiculo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/XMLHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/XMLHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/veiculo.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/veiculo.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,6 +32,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Kotlin Class" />
         <option value="Class" />
       </list>
     </option>
@@ -50,13 +54,23 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "C:/Users/Globaltronic/Desktop/Daniel/Licenciatura/SI/projeto/projeto_protecao_apps",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2"
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings"
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="Classes" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Globaltronic\Desktop\Daniel\Licenciatura\TIntegracao\Trabalho1 - Gestão Veiculo Eletrico\electric_cars\src\main\resources" />
+      <recent name="C:\Users\Globaltronic\Desktop\Daniel\Licenciatura\TIntegracao\Trabalho1 - Gestão Veiculo Eletrico\electric_cars\src\main\resources\Clientes" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Globaltronic\Desktop\Daniel\Licenciatura\TIntegracao\Trabalho1 - Gestão Veiculo Eletrico\electric_cars\src\main\resources\Cliente\mar" />
       <recent name="C:\Users\Globaltronic\Desktop\Daniel\Licenciatura\TIntegracao\Trabalho1 - Gestão Veiculo Eletrico\electric_cars\src\main\resources" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
@@ -84,5 +98,8 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/electric_cars$Main.ic" NAME="Main Coverage Results" MODIFIED="1680432864796" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>
