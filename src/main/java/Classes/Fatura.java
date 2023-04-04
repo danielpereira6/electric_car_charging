@@ -15,34 +15,34 @@ public class Fatura implements Serializable {
     private int numero_fatura; // id da fatura
     @XmlElement(name="data_fatura")
     private String data_fatura;
-    @XmlElement(name="preco")
-    private double preco; // €
-    @XmlElement(name="iva")
-    private double iva; // 23%
     @XmlElement(name="descontos")
     private HashMap<Integer, Descontos> descontos; // %
     @XmlElement(name="impostos")
     private HashMap<Integer, Impostos> impostos; // %
     @XmlElement(name="carregamentos")
     private HashMap<Integer, Carregamento> carregamentos;
+    @XmlElement(name="iva")
+    private double iva; // 23%
+    @XmlElement(name="total")
+    private double total; // €
 
     public Fatura(){}
 
     public Fatura(int numero_fatura,
                   String data_fatura,
-                  double preco,
-                  double iva,
                   HashMap<Integer, Descontos> descontos,
                   HashMap<Integer, Impostos> impostos,
-                  HashMap<Integer, Carregamento> carregamentos
+                  HashMap<Integer, Carregamento> carregamentos,
+                  double iva,
+                  double total
     ) {
         this.numero_fatura = numero_fatura;
         this.data_fatura = data_fatura;
-        this.preco = preco;
-        this.iva = iva;
         this.descontos = descontos;
         this.impostos = impostos;
         this.carregamentos = carregamentos;
+        this.iva = iva;
+        this.total = total;
     }
 
     /** carregamento normal (até 22kW) **/
@@ -66,8 +66,8 @@ public class Fatura implements Serializable {
         return data_fatura;
     }
 
-    public double getPreco() {
-        return preco;
+    public double getTotal() {
+        return total;
     }
 
     public double getIva() {

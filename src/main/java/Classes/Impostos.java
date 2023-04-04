@@ -18,6 +18,14 @@ public class Impostos {
     @XmlElement(name="unidade")
     private String unidade; // % ou €
 
+    public Impostos(){}
+    public Impostos(int id, String nome, double taxa, String unidade) {
+        this.id = id;
+        this.nome = nome;
+        this.taxa = taxa;
+        this.unidade = unidade;
+    }
+
     public int getId() {
         return id;
     }
@@ -32,5 +40,10 @@ public class Impostos {
 
     public String getUnidade() {
         return unidade;
+    }
+
+    @Override
+    public String toString() {
+        return nome + ": " + taxa + " " + unidade;
     }
 }

@@ -64,21 +64,19 @@ public class XMLHandler {
 
             // Criar um objeto Unmarshaller para ler o arquivo XML
             Unmarshaller jaxbUnmarshaller = jaxbContext.createUnmarshaller();
-            //
-            Fatura livros = (Fatura) jaxbUnmarshaller.unmarshal(new File("newBook.xml"));
 
             // Criar um objeto SchemaFactory para validar o arquivo XML
             SchemaFactory schemaFactory = SchemaFactory.newInstance(XMLConstants.W3C_XML_SCHEMA_NS_URI);
 
             // Ler o arquivo XSD de validação
-            Schema xmlSchema = schemaFactory.newSchema(new File(xsdFile)); // "newCatalog.xsd"
+            Schema xmlSchema = schemaFactory.newSchema(new File(xsdFile));
             jaxbUnmarshaller.setSchema(xmlSchema);
 
             // Criar um objeto Validator para validar o arquivo XML
             Validator validator = xmlSchema.newValidator();
 
             // Validar o arquivo XML
-            validator.validate(new StreamSource(new File(xmlFile))); // "newBook.xml"
+            validator.validate(new StreamSource(new File(xmlFile)));
 
             return true;
         } catch (Exception e) {

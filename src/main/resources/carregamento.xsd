@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="carregamento" type="carregamentoType"/>
+  <xs:complexType name="localizacaoType">
+    <xs:sequence>
+      <xs:element type="xs:string" name="latitude"/>
+      <xs:element type="xs:string" name="longitude"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="postoType">
+    <xs:sequence>
+      <xs:element type="xs:string" name="nome"/>
+      <xs:element type="xs:string" name="descricao"/>
+      <xs:element type="xs:string" name="tipo_posto"/>
+      <xs:element type="localizacaoType" name="localizacao"/>
+    </xs:sequence>
+    <xs:attribute type="xs:string" name="id"/>
+  </xs:complexType>
+  <xs:complexType name="carroType">
+    <xs:sequence>
+      <xs:element type="xs:string" name="matricula"/>
+      <xs:element type="xs:string" name="marca"/>
+      <xs:element type="xs:string" name="modelo"/>
+      <xs:element type="xs:string" name="cor"/>
+      <xs:element type="xs:string" name="ano"/>
+    </xs:sequence>
+    <xs:attribute type="xs:string" name="id"/>
+  </xs:complexType>
+  <xs:complexType name="carregamentoType">
+    <xs:sequence>
+      <xs:element type="xs:string" name="data_carregamento"/>
+      <xs:element type="xs:string" name="hora_inicio"/>
+      <xs:element type="xs:string" name="duracao"/>
+      <xs:element type="postoType" name="posto"/>
+      <xs:element type="xs:string" name="quantidade"/>
+      <xs:element type="xs:string" name="preco"/>
+      <xs:element type="carroType" name="carro"/>
+    </xs:sequence>
+    <xs:attribute type="xs:string" name="id"/>
+  </xs:complexType>
+</xs:schema>

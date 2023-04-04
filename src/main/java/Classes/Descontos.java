@@ -18,6 +18,15 @@ public class Descontos {
     @XmlElement(name="unidade")
     private String unidade; // % ou €
 
+    public Descontos(){}
+
+    public Descontos(int id, String nome, double valor, String unidade) {
+        this.id = id;
+        this.nome = nome;
+        this.valor = valor;
+        this.unidade = unidade;
+    }
+
     public int getId() {
         return id;
     }
@@ -32,5 +41,10 @@ public class Descontos {
 
     public String getUnidade() {
         return unidade;
+    }
+
+    @Override
+    public String toString() {
+        return nome + ": " + valor + " " + unidade;
     }
 }

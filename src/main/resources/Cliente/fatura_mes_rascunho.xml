@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<fatura n_fatura="1000">
+    <data_fatura>2023/03/27</data_fatura>
+    <preco>0.21</preco> <!-- € -->
+    <descontos id="1">
+        <nome>quantidade</nome>
+        <valor>0.25</valor> <!-- depende da unidade -->
+        <unidade>%</unidade>
+    </descontos>
+    <impostos id="1">
+        <nome>Tarifa OPC</nome>
+        <taxa>0.25</taxa> <!-- depende da unidade -->
+        <unidade>€</unidade>
+    </impostos>
+    <iva>0.23</iva> <!-- 23 % -->
+    <carregamentos>
+        <carregamento id="1">
+            <data_carregamento>2019/04/20</data_carregamento>
+            <hora_inicio>10:49:19</hora_inicio>
+            <duracao>01:40:19</duracao>
+            <posto id="1">
+                <nome>MTS-00009</nome>
+                <descricao>Posto da ESTGA</descricao>
+                <tipo_posto>20 kW</tipo_posto>
+                <localizacao>
+                    <latitude>40.5744818</latitude>
+                    <longitude>-8.4456185</longitude>
+                </localizacao>
+            </posto>
+            <quantidade>4.080</quantidade>
+            <consumido>0.9384</consumido>
+            <carro id="1"> <!-- matricula pode ser o id? -->
+                <matricula>11-72-WI</matricula>
+                <marca>Rover</marca>
+                <modelo>600</modelo>
+                <cor>azul</cor>
+                <ano>1990</ano>
+            </carro>
+        </carregamento>
+        <carregamento id="2">
+            <data_carregamento>2019/05/19</data_carregamento>
+            <hora_inicio>10:11:06</hora_inicio>
+            <duracao>01:10:50</duracao>
+            <posto id="2">VNG-00009</posto> <!-- nome do posto -->
+            <quantidade>3.379</quantidade>
+            <consumido>0.77772</consumido>
+            <carro id="1">
+                <matricula>11-72-WI</matricula>
+                <marca>Rover</marca>
+                <modelo>600</modelo>
+                <cor>azul</cor>
+                <ano>1990</ano>
+            </carro>
+        </carregamento>
+    </carregamentos>
+</fatura>

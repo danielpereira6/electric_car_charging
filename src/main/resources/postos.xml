@@ -10,7 +10,7 @@
         </localizacao>
     </posto>
     <posto id="2">
-        <nome>VNG-00009</nome>
+        <nome>VNG-00001</nome>
         <descricao>Estação de Serviço Repsol</descricao>
         <tipo_posto>50 kW</tipo_posto>
         <localizacao>

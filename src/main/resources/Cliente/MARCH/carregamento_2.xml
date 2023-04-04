@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<carregamento id="2">
+    <data_carregamento>2023-03-19</data_carregamento>
+    <hora_inicio>10:11:06</hora_inicio>
+    <duracao>01:10:50</duracao>
+    <posto id="2">
+        <nome>VNG-00001</nome>
+        <descricao>Estação de Serviço Repsol</descricao>
+        <tipo_posto>50 kW</tipo_posto>
+        <localizacao>
+            <latitude>39.0500708</latitude>
+            <longitude>-8.9168791</longitude>
+        </localizacao>
+    </posto>
+    <quantidade>3.379</quantidade>
+    <preco>0.77772</preco>
+    <carro id="1">
+        <matricula>11-72-WI</matricula>
+        <marca>Rover</marca>
+        <modelo>600</modelo>
+        <cor>azul</cor>
+        <ano>1990</ano>
+    </carro>
+</carregamento>

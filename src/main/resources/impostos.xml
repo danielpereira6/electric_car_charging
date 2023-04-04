@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<impostos> <!-- depende da unidade -->
+    <imposto id="1">
+        <nome>Tarifa OPC</nome>
+        <taxa>0.50</taxa> <!-- 0.50€ -->
+        <unidade>€</unidade>
+    </imposto>
+    <imposto id="2">
+        <nome>IEC</nome>
+        <taxa>0.05</taxa> <!-- 5% -->
+        <unidade>%</unidade>
+    </imposto>
+</impostos>

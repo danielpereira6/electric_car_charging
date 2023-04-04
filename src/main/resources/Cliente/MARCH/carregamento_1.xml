@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <carregamento id="1">
-    <data_carregamento>2019/04/20</data_carregamento>
+    <data_carregamento>2023-03-20</data_carregamento>
     <hora_inicio>10:49:19</hora_inicio>
     <duracao>01:40:19</duracao>
     <posto id="1">
@@ -13,7 +13,7 @@
         </localizacao>
     </posto>
     <quantidade>4.080</quantidade> <!-- kWh -->
-    <consumido>0.9384</consumido> <!-- € -->
+    <preco>0.9384</preco> <!-- € -->
     <carro id="1"> <!-- matricula pode ser o id? -->
         <matricula>11-72-WI</matricula>
         <marca>Rover</marca>

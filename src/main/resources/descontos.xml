@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<descontos>
+    <desconto id="1">
+        <nome>Desc. p/quantidade</nome>
+        <valor>0.25</valor> <!-- depende da unidade -->
+        <unidade>%</unidade>
+    </desconto>
+</descontos>

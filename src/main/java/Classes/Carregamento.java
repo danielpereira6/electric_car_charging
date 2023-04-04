@@ -25,8 +25,8 @@ public class Carregamento implements Serializable {
     @XmlElement(name="quantidade")
     private double quantidade; // kWh
 
-    @XmlElement(name="consumido")
-    private double consumido; // €
+    @XmlElement(name="preco")
+    private double preco; // €
 
     @XmlElement(name="posto")
     private Posto dados_posto;
@@ -38,13 +38,13 @@ public class Carregamento implements Serializable {
 
     public Carregamento() {}
 
-    public Carregamento(int id, String data_carregamento, String hora_inicio, String duracao, double quantidade, double consumido, Posto dados_posto, Veiculo veiculo) {
+    public Carregamento(int id, String data_carregamento, String hora_inicio, String duracao, double quantidade, double preco, Posto dados_posto, Veiculo veiculo) {
         this.id = id;
         this.data_carregamento = data_carregamento;
         this.hora_inicio = hora_inicio;
         this.duracao = duracao;
         this.quantidade = quantidade;
-        this.consumido = consumido;
+        this.preco = preco;
         this.dados_posto = dados_posto;
         this.veiculo = veiculo;
     }
@@ -69,8 +69,8 @@ public class Carregamento implements Serializable {
         return quantidade;
     }
 
-    public double getConsumido() {
-        return consumido;
+    public double getPreco() {
+        return preco;
     }
 
     public Posto getDadosPosto() {
@@ -89,7 +89,7 @@ public class Carregamento implements Serializable {
                 ", hora_inicio='" + hora_inicio + '\'' +
                 ", duracao='" + duracao + '\'' +
                 ", quantidade=" + quantidade +
-                ", consumido=" + consumido +
+                ", preco=" + preco +
                 ", dados_posto=" + dados_posto +
                 ", veiculo=" + veiculo +
             '}';

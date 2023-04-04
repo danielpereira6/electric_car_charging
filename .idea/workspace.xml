@@ -5,24 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e21f9998-06ad-495f-b2ec-3265e07a32d7" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Classes/Descontos.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Classes/Impostos.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Classes/Localizacao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Utils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/Cliente/fatura_mes.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/Cliente/mar/carregamento_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/Cliente/mar/carregamento_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/postos.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Classes/Carregamento.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Classes/Carregamento.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Classes/Descontos.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Classes/Descontos.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Classes/Fatura.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Classes/Fatura.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Classes/Posto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Classes/Posto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Classes/Veiculo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Classes/Veiculo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Classes/Impostos.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Classes/Impostos.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Utils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Utils.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/XMLHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/XMLHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/veiculo.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/veiculo.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Cliente/fatura_mes.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Cliente/fatura_mes_rascunho.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Cliente/mar/carregamento_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Cliente/mar/carregamento_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/postos.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/postos.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/veiculo.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Cliente/veiculo.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,7 +49,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "C:/Users/Globaltronic/Desktop/Daniel/Licenciatura/SI/projeto/projeto_protecao_apps",
+    "last_opened_file_path": "C:/Users/Globaltronic/Desktop/Daniel/Licenciatura/TIntegracao/Trabalho1 - Gestão Veiculo Eletrico/electric_cars/src/main/resources",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
@@ -70,8 +65,9 @@
       <recent name="C:\Users\Globaltronic\Desktop\Daniel\Licenciatura\TIntegracao\Trabalho1 - Gestão Veiculo Eletrico\electric_cars\src\main\resources\Clientes" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\Globaltronic\Desktop\Daniel\Licenciatura\TIntegracao\Trabalho1 - Gestão Veiculo Eletrico\electric_cars\src\main\resources\Cliente\mar" />
       <recent name="C:\Users\Globaltronic\Desktop\Daniel\Licenciatura\TIntegracao\Trabalho1 - Gestão Veiculo Eletrico\electric_cars\src\main\resources" />
+      <recent name="C:\Users\Globaltronic\Desktop\Daniel\Licenciatura\TIntegracao\Trabalho1 - Gestão Veiculo Eletrico\electric_cars\src\main\resources\Cliente" />
+      <recent name="C:\Users\Globaltronic\Desktop\Daniel\Licenciatura\TIntegracao\Trabalho1 - Gestão Veiculo Eletrico\electric_cars\src\main\resources\Cliente\mar" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="" />
