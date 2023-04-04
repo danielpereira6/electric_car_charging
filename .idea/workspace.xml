@@ -6,18 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="e21f9998-06ad-495f-b2ec-3265e07a32d7" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Classes/Carregamento.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Classes/Carregamento.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Classes/Descontos.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Classes/Descontos.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Classes/Fatura.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Classes/Fatura.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Classes/Impostos.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Classes/Impostos.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Utils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Utils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/XMLHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/XMLHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/Cliente/fatura_mes.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Cliente/fatura_mes_rascunho.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/Cliente/mar/carregamento_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/Cliente/mar/carregamento_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/postos.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/postos.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/veiculo.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Cliente/veiculo.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
